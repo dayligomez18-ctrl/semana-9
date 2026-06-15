@@ -1,0 +1,15 @@
+ejecucion-servidor.txt
+
+✅ ¿Qué ocurre cuando ejecutas node server.js?
+Al ejecutar este comando, Node.js lee y procesa todo el código que está en el archivo server.js. Inicia el servidor, activa las rutas configuradas y deja el programa a la espera de recibir solicitudes desde el navegador o aplicaciones. Desde ese momento, el sistema ya está operativo y listo para responder peticiones.
+
+✅ ¿Qué mensaje aparece en la terminal?
+Por lo general se muestra un aviso confirmando que todo está correcto, por ejemplo: “Servidor activo y escuchando en el puerto 3000”. Indica claramente el número de puerto que se está usando y confirma que no hubo errores al iniciar.
+
+✅ ¿Qué sucede cuando visitas la ruta /estado?
+El servidor recibe la solicitud y responde enviando un objeto en formato JSON que confirma su funcionamiento:
+{
+  "estado": "Servidor funcionando",
+  "servicio": "API comunitaria"
+}
+Esto permite comprobar de forma rápida y sencilla que la plataforma está activa y operativa.
